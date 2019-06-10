@@ -1,0 +1,15 @@
+{
+  "name": "semaforo-app",
+  "version": "0.0.1",
+  "description": "Criando um semaforo com angularJS",
+  "main": "index.html",
+  "repository": "git@github.com:rotirotirafa/semaforo-app.git",
+  "author": "Rafael Rotiroti",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "angular": "^1.7.8",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0"
+  }
+}
