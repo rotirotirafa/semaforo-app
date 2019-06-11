@@ -12,10 +12,7 @@ app.controller('Semaforo', ['$scope', '$timeout', '$interval', function($scope, 
 //setInterval(function, tempo) //a funcao setTimout roda sempre
 //clearInterval(function) // para pausar a função
 //clearTImeout(function) // para pausar a função
-
-  $scope.tempoSemaforo1 = 82;
-  $scope.tempoSemaforo2 = 30;
-  // Os valores devem ser enviados em milisegundos, ou seja na hora de chamar a função deve ser feito como: 1000 * segundos
+// Os valores devem ser enviados em milisegundos, ou seja na hora de chamar a função deve ser feito como: 1000 * segundos
 
   $scope.semaforo1 = {
      tempoTotal: $scope.tempoSemaforo1,
@@ -58,7 +55,7 @@ app.controller('Semaforo', ['$scope', '$timeout', '$interval', function($scope, 
    },1000, $scope.countDown);
 
   }
-  //tempoRestante()
+  tempoRestante()
 
   function ContarSegundos(){
     var segundos = 5;
