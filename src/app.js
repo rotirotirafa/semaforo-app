@@ -30,6 +30,12 @@ app.controller('Semaforo', ['$scope', '$timeout', '$interval', function($scope, 
     $scope.semaforo2.verde = true;
   }
 
+  setInterval(livre, 1000 * 10)
+  function livre(){
+     $scope.semaforo1.amarelo = true;
+     $scope.semaforo2.amarelo = true;
+     console.log($scope.semaforo1, $scope.semaforo2)
+  }
   // setInterval(ContarSegundos, 1000 * $scope.tempoVermelho);
 
   //calcular o tempo total que os semaforos vão ficar ativos,
