@@ -1,7 +1,7 @@
 ``` yarn install ```
 
--- Evoluir:
-    --Input do tempo do semaforo.
+** Evoluir:
+** Input do tempo do semaforo.
 ```  
 
 ```
