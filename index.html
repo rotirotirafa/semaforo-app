@@ -10,17 +10,18 @@
     <div>
         <h1>Semaforo 1</h1>
         <ul>
-            <li>Vermelho</li>
-            <li>Amarelo</li>
-            <li>Verde</li>
+            <li ng-if="semaforo1.vermelho">Vermelho</li>
+            <li ng-if="semaforo1.amarelo">Amarelo</li>
+            <li ng-if="semaforo1.verde">Verde</li>
         </ul>
     </div>
+    {{counter}}
     <div>
         <h1>Semaforo 2</h1>
          <ul>
-            <li>Vermelho</li>
-            <li>Amarelo</li>
-            <li>Verde</li>
+            <li ng-if="semaforo2.vermelho">Vermelho</li>
+            <li ng-if="semaforo2.amarelo">Amarelo</li>
+            <li ng-if="semaforo2.verde">Verde</li>
         </ul>
     </div>
 </body>
