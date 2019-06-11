@@ -1,7 +1,7 @@
 ``` yarn install ```
 
 
-/***   
+```  
       Se SEMAFORO1.VERMELHO === TRUE
           SEMAFORO2.VERDE = TRUE
           SEMAFORO2.AMARELO = FALSE
@@ -32,4 +32,4 @@
           SEMAFORO1.VERDE = TRUE
           SEMAFORO1.AMARELO = FALSE
           SEMAFORO1.VERMELHO = FALSE
-   ***/
+```
