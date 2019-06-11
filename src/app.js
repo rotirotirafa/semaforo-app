@@ -5,7 +5,7 @@ app.controller('Semaforo', ['$scope', '$timeout', '$interval', function($scope, 
   // Cada farol amarelo deve durar 3 segundos
   // Cada farol vermelho deve durar 10 segundos
   $scope.tempoVermelho = 10;
-  $scope.tempoAmarelo = 3;
+  $scope.tempoAmarelo = 13;
   $scope.tempoVerde = 15;
 
   $scope.tempoSemaforo1 = 28;
@@ -30,7 +30,7 @@ app.controller('Semaforo', ['$scope', '$timeout', '$interval', function($scope, 
     $scope.semaforo2.verde = true;
   }
 
-  setInterval(livre, 1000 * 10)
+  //setInterval(livre, 1000 * 10)
   function livre(){
      $scope.semaforo1.amarelo = true;
      $scope.semaforo2.amarelo = true;
@@ -46,11 +46,12 @@ app.controller('Semaforo', ['$scope', '$timeout', '$interval', function($scope, 
       //clearInterval(function) // para pausar a função
       //clearTImeout(function) // para pausar a função
   
-
+   semaforo1();
    function semaforo1(){
-     setTimeout(vermelho, 1000 * $scope.tempoVermelho)
-     setTimeout(amarelo, 1000 * $scope.tempoAmarelo)
-     setTimeout(verde, 1000 * $scope.tempoVerde)
+     setInterval(vermelho, 1000 * $scope.tempoVermelho)
+     setInterval(amarelo, 1000 * $scope.tempoAmarelo)
+     setInterval(verde, 1000 * $scope.tempoVerde)
+     console.log($scope.semaforo1);
    }
    
    function vermelho(){
