@@ -19,7 +19,8 @@ O projeto
 Este projeto consiste em ativar os semaforos de uma simples intersecção de uma via.
 
 O que é pretendido:
-- Input do tempo do semaforo.
-- Mostrar hora e local
-- Layout
-- Adicionar tempo restante de cada cor 
+- Fazer Input do tempo do semaforo.
+- Trabalhar o semaforo com data, hora e local
+- Melhorar o Layout
+- Adicionar tempo restante de cada momento do semaforo
+- Adicionar ao github pages.
