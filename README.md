@@ -12,7 +12,6 @@ Este projeto utiliza Yarn para gerenciamento dos pacotes, então caso não o pos
 ## Abra o projeto e instale as dependencias necessárias com:
 ``` yarn install ```
 
-
 O projeto
 =========
 
