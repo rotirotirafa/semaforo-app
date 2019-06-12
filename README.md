@@ -7,7 +7,7 @@ Este projeto foi desenvolvido para estudar alguns conceitos especificos do Angul
 ## Faça download do repositório:
 ``` git clone git@github.com:rotirotirafa/semaforo-app.git```
 
-## Este projeto utiliza Yarn para gerenciamento dos pacotes, então caso não o possua você pode instala-lo através do [link] (https://yarnpkg.com/pt-BR/docs/install)
+Este projeto utiliza Yarn para gerenciamento dos pacotes, então caso não o possua você pode instala-lo através do [link] (https://yarnpkg.com/pt-BR/docs/install)
 
 ## Abra o projeto e instale as dependencias necessárias com:
 ``` yarn install ```
