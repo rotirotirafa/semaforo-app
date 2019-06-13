@@ -23,3 +23,4 @@ O que é pretendido:
 - Melhorar o Layout
 - Adicionar tempo restante de cada momento do semaforo
 - Adicionar ao github pages.
+- Google Maps API
